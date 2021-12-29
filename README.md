@@ -26,7 +26,7 @@ Loaded using the defaults, each of the batch files are grouped into a training s
 
 - y_train -- an 8000 row numpy array with integers in the range 0 … 92. The number at index i indicates the label of the ith image in the array data.
 
-- y_test -- a 2000 row numpy array with integers in the range 0 … 92. The number at index i indicates the label of the ith image in the array data.\
+- y_test -- a 2000 row numpy array with integers in the range 0 … 92. The number at index i indicates the label of the ith image in the array data.
 
 The dataset contains another file, labels.meta ,which contains a Python dictionary object with the following entries:
 
