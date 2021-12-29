@@ -8,7 +8,7 @@ The dataset is divided into four training batches and one test batch, each with 
 Five classes are mutually exclusive: alien, ape, zombie, male and female. The remaining classes are not mutually exclusive. For example, there is overlap between Choker and Tiara.
 
 ### Download
-If you're going to use this dataset, please use the CPUNKS-10K API to mint an NFT using the CPUNKS-10K contract and reference the NFT ID in your work. This will insure the data used in your research is transparent and your work is reproducible.
+If you're going to use this dataset, please use the CPUNKS-10K API to mint an NFT using the [CPUNKS-10K NFT Contract](https://github.com/tnn1t1s/cpunks-10k/blob/main/CPUNKS-10K%20NFT) and reference the NFT ID in your work. This will insure the data used in your research is transparent and your work is reproducible.
 
 ### Baseline results
 You can find some baseline replicable results on this dataset on the project page hosted on colorpunx.io. These results were obtained with a convolutional neural network. Briefly, they are 18% test error without data augmentation and 11% with regularization.
