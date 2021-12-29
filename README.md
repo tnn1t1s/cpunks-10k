@@ -1,4 +1,4 @@
-CPUNKS-10K are labeled subsets of the 10,000 labeled images in the CryptoPunks collection by Larva Labs. They have been collected for use in Machine Learning research by tnn1t1s.eth and authored by John Watkinson & Matt Hall.
+CPUNKS-10K are subsets of the 10,000 labeled images in the CryptoPunks collection by Larva Labs. They have been collected for use in Machine Learning research by tnn1t1s.eth and authored by John Watkinson & Matt Hall.
 
 ### The CPUNKS-10K dataset
 The CPUNKS-10k dataset consists of 10000 24x24 colour images labeled with 92 classes, with a mixed number of images per class. There are 8000 training images and 2000 test images.
