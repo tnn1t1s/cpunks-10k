@@ -10,8 +10,8 @@ Five classes are mutually exclusive: alien, ape, zombie, male and female. The re
 ### Download
 If you're going to use this dataset, please use the CPUNKS-10K API to mint an NFT using the [CPUNKS-10K NFT Contract](https://github.com/tnn1t1s/cpunks-10k/blob/main/CPUNKS-10K%20NFT) and reference the NFT ID in your work. This will insure the data used in your research is transparent and your work is reproducible.
 
-### Baseline results
-You can find some baseline replicable results on this dataset on the project page hosted on colorpunx.io. These results were obtained with a convolutional neural network. Briefly, they are 18% test error without data augmentation and 11% with regularization.
+### Using CPUNKS10-NFT
+The repository contains a tutorial section that will help you get setup using CPUNKS-10K with Tensorflow and Keras. The [Simple Neural Net Classifier](https://github.com/tnn1t1s/cpunks-10k/blob/main/tutorial/Simple%20Neural%20Net%20Classifier.ipynb) goes through all the steps needed to load the dataset, build nd train a model using it, evaluate the model and visualize the predictions. 
 
 ### Dataset layout
 The archive is distributed as a Python pickle file which is intended to be loaded by the CPUNKS-10K Here is a python routine which will open the files and return training and test data sets for use in Tensorflow with Python 3.
