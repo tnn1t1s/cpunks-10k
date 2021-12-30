@@ -20,9 +20,9 @@ The archive is distributed as a Python pickle file which is intended to be loade
 
 Loaded using the defaults, each of the batch files are grouped into a training set and paired with corresponding test data containing with the following elements:
 
-- x_train -- an 8000x24x24x3 numpy array of uint8s. Each row of the array stores a 24x24x3 colour image.
+- x_train -- an 8000x24x24x4 numpy array of uint8s. Each row of the array stores a 24x24x4 colour image with four channels: red, green, blue & transparency.
 
-- x_test -- a 2000x24x24x3 numpy array of uint8s. Each row of the array stores a 24x24x3 colour image.
+- x_test -- a 2000x24x24x4 numpy array of uint8s. Each row of the array stores a 24x24x4 colour image with four channels: red, green, blue & transparency.
 
 - y_train -- an 8000 row numpy array with integers in the range 0 … 92. The number at index i indicates the label of the ith image in the array data.
 
