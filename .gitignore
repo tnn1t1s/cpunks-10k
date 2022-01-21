@@ -1,0 +1,22 @@
+# Vim
+[._]*.swp
+tags
+*~
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+
+# Python Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
