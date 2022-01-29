@@ -1,4 +1,4 @@
-'''a conditional generative adversarial network optimize for working with cryptopunks art projects'''
+'''a conditional generative adversarial network designed specifically for working with cryptopunks art projects'''
 
 class ConditionalGAN(Model):
     def __init__(self):
