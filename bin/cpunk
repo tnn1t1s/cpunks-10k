@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+from cpunks.cli import cli_parser
+
+args = cli_parser.parse_args()
+args.fn(args)
