@@ -6,7 +6,7 @@ from tensorflow.python.keras.models import Model
 from tensorflow.python.keras import backend as K
 from tensorflow.python.keras.optimizers import Adam
 
-from utils.callbacks import step_decay_schedule
+from .callbacks import step_decay_schedule
 
 import numpy as np
 

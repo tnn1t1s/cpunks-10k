@@ -5,7 +5,7 @@ import pathlib
 
 class cpunks10k:
     def __init__(self):
-        module_root = pathlib.Path(__file__).parents[1]
+        module_root = pathlib.Path(__file__).parents[0]
         self.punks_df = pd.read_pickle(f"{module_root}/data/punks.pkl")
 
     def any_to_one(self, i):
