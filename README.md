@@ -7,8 +7,14 @@ The dataset is divided into four training batches and one test batch, each with 
 
 Five classes are mutually exclusive: alien, ape, zombie, male and female. The remaining classes are not mutually exclusive. For example, there is overlap between Choker and Tiara.
 
-### Download
-If you're going to use this dataset, please use the CPUNKS-10K API to mint an NFT using the [CPUNKS-10K NFT Contract](https://github.com/tnn1t1s/cpunks-10k/blob/main/CPUNKS-10K%20NFT) and reference the NFT ID in your work. This will insure the data used in your research is transparent and your work is reproducible.
+### Download & Install
+cpunks-10k is available for installation using `pip`. In a virtual environment or conda environment, use the following command to install cpunks-10k.
+
+```pip install cpunks-10k```
+
+To get started, use the `cpunks` command line utility to create a scratch space for notebook development using cpunks.
+
+```cpunks tutorial install```
 
 ### Using CPUNKS10
 The repository contains a tutorial section that will help you get setup using CPUNKS-10K with Tensorflow and Keras. The [Simple Neural Net Classifier](https://github.com/tnn1t1s/cpunks-10k/blob/main/tutorial/Simple%20Neural%20Net%20Classifier.ipynb) goes through all the steps needed to load the dataset, build nd train a model using it, evaluate the model and visualize the predictions. 
